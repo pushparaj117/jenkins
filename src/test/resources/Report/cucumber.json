@@ -1,0 +1,409 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Verifying Adactin Booking details with credentials",
+        "description": "",
+        "id": "verifying-adactin-login-functionalities;verifying-adactin-booking-details-with-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11128923900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Adactin Page",
+            "match": {
+              "location": "BookingAdactin.user_is_on_Adactin_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54029178900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter \"Pushparaj\",\"HF07YG\",\"Melbourne\",\"Hotel Sunshine\",\"Double\",\"2 - Two\",\"24/08/2020\",\"25/08/2020\",\"3 - Three\",\"2 - Two\",\"Pushparaj\",\"Utham\",\"No.1,FirstColny\",\"4567765498768907\",\"VISA\",\"July\",\"2022\"and\"234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pushparaj\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"HF07YG\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"24/08/2020\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"25/08/2020\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 113
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 125
+                },
+                {
+                  "val": "\"Pushparaj\"",
+                  "offset": 135
+                },
+                {
+                  "val": "\"Utham\"",
+                  "offset": 147
+                },
+                {
+                  "val": "\"No.1,FirstColny\"",
+                  "offset": 155
+                },
+                {
+                  "val": "\"4567765498768907\"",
+                  "offset": 173
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 192
+                },
+                {
+                  "val": "\"July\"",
+                  "offset": 199
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 206
+                },
+                {
+                  "val": "\"234\"",
+                  "offset": 215
+                }
+              ],
+              "location": "BookingAdactin.user_should_enter_and(String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6035776900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "print the booking id",
+            "match": {
+              "location": "BookingAdactin.print_the_booking_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5658477900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should click the logout button",
+            "match": {
+              "location": "BookingAdactin.user_should_click_the_logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Verifying Adactin Booking details with credentials",
+        "description": "",
+        "id": "verifying-adactin-login-functionalities;verifying-adactin-booking-details-with-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12012620700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Adactin Page",
+            "match": {
+              "location": "BookingAdactin.user_is_on_Adactin_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54019706800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter \"Pushparaj\",\"HF07YG\",\"London\",\"Hotel Cornice\",\"Double\",\"2 - Two\",\"24/08/2020\",\"25/08/2020\",\"3 - Three\",\"2 - Two\",\"Pushparaj\",\"Utham\",\"No.1,FirstColny\",\"4567765498768907\",\"VISA\",\"July\",\"2022\"and\"234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pushparaj\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"HF07YG\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Hotel Cornice\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"24/08/2020\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"25/08/2020\"",
+                  "offset": 96
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 109
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 121
+                },
+                {
+                  "val": "\"Pushparaj\"",
+                  "offset": 131
+                },
+                {
+                  "val": "\"Utham\"",
+                  "offset": 143
+                },
+                {
+                  "val": "\"No.1,FirstColny\"",
+                  "offset": 151
+                },
+                {
+                  "val": "\"4567765498768907\"",
+                  "offset": 169
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 188
+                },
+                {
+                  "val": "\"July\"",
+                  "offset": 195
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 202
+                },
+                {
+                  "val": "\"234\"",
+                  "offset": 211
+                }
+              ],
+              "location": "BookingAdactin.user_should_enter_and(String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6062467300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "print the booking id",
+            "match": {
+              "location": "BookingAdactin.print_the_booking_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5583347500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should click the logout button",
+            "match": {
+              "location": "BookingAdactin.user_should_click_the_logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verifying Adactin Booking details with credentials",
+        "description": "",
+        "id": "verifying-adactin-login-functionalities;verifying-adactin-booking-details-with-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10614583100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Adactin Page",
+            "match": {
+              "location": "BookingAdactin.user_is_on_Adactin_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54392044900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter \"Pushparaj\",\"HF07YG\",\"Paris\",\"Hotel Sunshine\",\"Deluxe\",\"2 - Two\",\"24/08/2020\",\"25/08/2020\",\"3 - Three\",\"2 - Two\",\"Pushparaj\",\"Utham\",\"No.1,FirstColny\",\"4567765498768907\",\"VISA\",\"July\",\"2022\"and\"234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pushparaj\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"HF07YG\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Paris\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"24/08/2020\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"25/08/2020\"",
+                  "offset": 96
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 109
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 121
+                },
+                {
+                  "val": "\"Pushparaj\"",
+                  "offset": 131
+                },
+                {
+                  "val": "\"Utham\"",
+                  "offset": 143
+                },
+                {
+                  "val": "\"No.1,FirstColny\"",
+                  "offset": 151
+                },
+                {
+                  "val": "\"4567765498768907\"",
+                  "offset": 169
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 188
+                },
+                {
+                  "val": "\"July\"",
+                  "offset": 195
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 202
+                },
+                {
+                  "val": "\"234\"",
+                  "offset": 211
+                }
+              ],
+              "location": "BookingAdactin.user_should_enter_and(String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6137801500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "print the booking id",
+            "match": {
+              "location": "BookingAdactin.print_the_booking_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5618872800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should click the logout button",
+            "match": {
+              "location": "BookingAdactin.user_should_click_the_logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Adactin login functionalities",
+    "description": "",
+    "id": "verifying-adactin-login-functionalities",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/AdactinLogin.feature",
+    "tags": []
+  }
+]

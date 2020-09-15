@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="231.29856">
+<testcase classname="Verifying Adactin login functionalities" name="Verifying Adactin Booking details with credentials" time="76.855733">
+<system-out><![CDATA[Given user is on Adactin Page...............................................passed
+When user should enter "Pushparaj","HF07YG","Melbourne","Hotel Sunshine","Double","2 - Two","24/08/2020","25/08/2020","3 - Three","2 - Two","Pushparaj","Utham","No.1,FirstColny","4567765498768907","VISA","July","2022"and"234".passed
+And print the booking id....................................................passed
+Then user should click the logout button....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Adactin login functionalities" name="Verifying Adactin Booking details with credentials 2" time="77.679067">
+<system-out><![CDATA[Given user is on Adactin Page...............................................passed
+When user should enter "Pushparaj","HF07YG","London","Hotel Cornice","Double","2 - Two","24/08/2020","25/08/2020","3 - Three","2 - Two","Pushparaj","Utham","No.1,FirstColny","4567765498768907","VISA","July","2022"and"234".passed
+And print the booking id....................................................passed
+Then user should click the logout button....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Adactin login functionalities" name="Verifying Adactin Booking details with credentials 3" time="76.76376">
+<system-out><![CDATA[Given user is on Adactin Page...............................................passed
+When user should enter "Pushparaj","HF07YG","Paris","Hotel Sunshine","Deluxe","2 - Two","24/08/2020","25/08/2020","3 - Three","2 - Two","Pushparaj","Utham","No.1,FirstColny","4567765498768907","VISA","July","2022"and"234".passed
+And print the booking id....................................................passed
+Then user should click the logout button....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
